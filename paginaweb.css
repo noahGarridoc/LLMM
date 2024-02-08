@@ -117,13 +117,8 @@ header nav img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url(img/sushi.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-    
-    
+    background-color: lightgray;
+    height: 69vh;
 }
 #saladas .card {
     width: 325px;
@@ -164,11 +159,12 @@ header nav img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url(img/gofre.jpeg);
+    background-image: url(img/fondo_postres.jpeg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    height: 69vh;
     
 }
 #postres .card {
