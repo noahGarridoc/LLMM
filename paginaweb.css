@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 /* Estilos generales para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
@@ -23,6 +30,8 @@ header nav {
     align-items: center;
     /* Centra los elementos verticalmente en el contenedor */
     height: 4vh;
+    position: fixed;
+    width: 99vw;
 }
 
 /* Estilos para los enlaces dentro de la barra de navegación */
@@ -95,106 +104,96 @@ header nav img {
 
 
 /* Estilos para la imagen del sushi */
+
+
+#saladas .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    
+}
 #saladas .contenedor {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-around;
-    row-gap: 30px;
-    background-image: url(img/fondo_de_sushi.jpeg);
-    background-size: cover;
+    background-image: url(img/sushi.jpg);
     background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    
+    
 }
-
 #saladas .card {
-    display: flex;
-    flex-direction: column;
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    width: 325px;
     background-color: white;
-    box-shadow: 0px 0px 7px 0px lightgrey;
-    border: 0;
-    height: 100vh;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+#saladas img{
+    width: 100%;
+    height: auto;
+}
+#saladas .contenido{
+    padding: 16px;
 }
 
-#saladas .cuerpo {
-    flex: 1 1 0;
-    padding: 8px;
+#saladas .contenido h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+#saladas .contenido p{
+    font-size: 15px;
+   
 }
 
-
-#saladas .cuerpo img {
-    width: 250px;
-}
-
-#saladas .title {
-    background: black;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-}
-
-#saladas .pie {
-    background: darkgray;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-}
 
 /* Estilos para el apartado de postres */
 
+#postres .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    
+}
 #postres .contenedor {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-around;
-    row-gap: 30px;
-    background-image: url(img/fondo_postres.jpeg);
-    background-size: cover;
+    background-image: url(img/gofre.jpeg);
     background-position: center center;
-    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    
 }
-
 #postres .card {
-    display: flex;
-    flex-direction: column;
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    width: 325px;
     background-color: white;
-    box-shadow: 0px 0px 7px 0px lightgrey;
-    border: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+#postres img{
+    width: 100%;
+    height: auto;
+}
+#postres .contenido{
+    padding: 16px;
 }
 
-#postres .cuerpo {
-    flex: 1 1 0;
-    padding: 8px;
+#postres .contenido h3{
+    font-size: 28px;
+    margin-bottom: 8px;
 }
-
-
-#postres .cuerpo img {
-    width: 250px;
-}
-
-#postres .title {
-    background: black;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-}
-
-#postres .pie {
-    background: darkgray;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
+#postres .contenido p{
+    font-size: 15px;
+   
 }
 
 #nosotros .contenedor{
