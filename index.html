@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="paginaweb.css">
-    <link rel="shortcut icon" href="img/logo_recetas.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/bienvenida.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Honk&display=swap" rel="stylesheet">
@@ -19,21 +19,25 @@
 <body>
     <header>
         <nav>
-            <a href="#">
-                <img src="img/nosolocomida_web-1-1.png" alt="Logo" class="logo">
-            </a>
-            <a href="index.html">Inicio</a>
-            <a href="#saladas">Recetas Saladas</a>
-            <a href="#postres">Postres</a>
-            <a href="#nosotros">Sobre Nosotros</a>
-            <a href="#contacto">Contacto</a>
+            <div class="logo">
+                <a href="#">
+                    <img src="img/bienvenida.png" alt="Logo" class="logo">
+                </a>
+            </div>
+            <div class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="#saladas">Recetas Saladas</a>
+                <a href="#postres">Postres</a>
+                <a href="#nosotros">Sobre Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </div>
         </nav>
     </header>
     <main>
         <div class="cabecera">
             <div class="cabecera_bienvenida">
                 <div class="frase">
-                    <h1>Bienvenido a Nosolo comida</h1>
+                    <img src="img/bienvenida.png" alt="bienvenida">
                     <p>Descubre nuevas recetas para deleitar tu paladar.</p>
                 </div>
             </div>
@@ -515,29 +519,36 @@
         </div>
     </section>
     <section id="nosotros">
-        <header class="titulo">
-            <h1>Nuestra historia</h1>
-        </header>
-        <div class="contenedor">
-            <img src="img/Pose.png" alt="sushi">
-            <div class="contenido">
-                <div class="card">
-                    <h2>Sobre Nosotros</h2>
+        <div class="borde">
+            <header class="titulo">
+                <h1>Sobre nosotros</h1>
+            </header>
+            <div class="contenedor">
+                <img src="img/Pose.png" alt="sushi">
+                <div class="contenido">
+                    <div class="miborde">
+                        <div class="card">
+                            <h2>Nuestra historia</h2>
+                            <p class="p">Somos un equipo apasionado por la gastronomía y los sabores auténticos. Nuestra
+                                misión es
+                                compartir
+                                nuestra pasión por la cocina y promover recetas
+                                deliciosas y
+                                nutritivas. En nuestro sitio web, encontrarás una variedad de platos inspiradores, desde
+                                recetas
+                                tradicionales hasta creaciones innovadoras. Nos esforzamos por ofrecer contenido de
+                                calidad,
+                                con
+                                consejos prácticos, técnicas culinarias y recomendaciones de ingredientes frescos y de
+                                temporada.
+                                ¡Únete a nosotros en este viaje culinario y descubre el placer de cocinar y compartir
+                                momentos
+                                inolvidables alrededor de la mesa!</p>
+                        </div>
+                    </div>
 
-                    <p class="p">Somos un equipo apasionado por la gastronomía y los sabores auténticos. Nuestra misión es
-                        compartir
-                        nuestra pasión por la cocina y promover recetas
-                        deliciosas y
-                        nutritivas. En nuestro sitio web, encontrarás una variedad de platos inspiradores, desde recetas
-                        tradicionales hasta creaciones innovadoras. Nos esforzamos por ofrecer contenido de calidad, con
-                        consejos prácticos, técnicas culinarias y recomendaciones de ingredientes frescos y de
-                        temporada.
-                        ¡Únete a nosotros en este viaje culinario y descubre el placer de cocinar y compartir momentos
-                        inolvidables alrededor de la mesa!</p>
                 </div>
-
             </div>
-
         </div>
     </section>
 

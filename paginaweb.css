@@ -25,7 +25,7 @@ header nav {
     /* Color de fondo para la barra de navegación */
     padding: 5px;
     /* Añade relleno a la barra de navegación */
-    justify-content: space-evenly;
+   justify-content: space-between;
     /* Distribuye los elementos a lo largo del eje principal (horizontal) */
     align-items: center;
     /* Centra los elementos verticalmente en el contenedor */
@@ -34,6 +34,7 @@ header nav {
     width: 99vw;
 
 }
+
 
 /* Estilos para los enlaces dentro de la barra de navegación */
 header nav a {
@@ -53,11 +54,12 @@ header nav a {
     /* Tamaño de fuente para los enlaces */
     border: 1px solid transparent;
     border-radius: 8px;
+    transition: 0.5s;
 }
 
 /* Estilos para los enlaces cuando el raton pasa por encima de ellos */
 header nav a:hover {
-    background-color: lightcoral;
+    background-color: rgb(91, 111, 143);
     /* Cambia el color de fondo al pasar el mouse por encima de los enlaces */
     border: 1px solid #fff;
     /* Añade un borde blanco al pasar el ratón por encima de los enlaces */
@@ -91,9 +93,7 @@ header nav img {
     background-color: rgb(0, 0, 0, .7);
     height: 100%;
     width: 100%;
-
 }
-
 .cabecera .cabecera_bienvenida .frase {
     display: flex;
     flex-direction: column;
@@ -101,6 +101,7 @@ header nav img {
     justify-content: center;
     margin-left: 40px;
     margin-bottom: 60px;
+    
 }
 
 
@@ -160,9 +161,6 @@ header nav img {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-
-
-
 }
 
 #postres .card {
@@ -206,18 +204,25 @@ header nav img {
     justify-content: center;
     flex-wrap: wrap;
     background-color: lightgray;
+    padding: 15vh 0;
+    
+   
+}
+#nosotros img{ 
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2) ;
 }
 
 #nosotros .card {
     width: 60vh;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
     margin: 20px;
+    padding: 20px;
 }
 
 #nosotros .titulo {
-    padding: 20px 0;
+    padding: 10vh 0;
     text-align: center;
     background-color: lightgray;
 }
@@ -258,7 +263,8 @@ header nav img {
     color: white;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(0, 0, 0, .7);
+    height: 100vh;
+
 }
 
 #contacto .contenido {
@@ -267,6 +273,8 @@ header nav img {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    background-color: rgb(0, 0, 0, .7);
+    width: 100%;
 }
 
 #contacto .contenido h2 {
@@ -328,6 +336,7 @@ footer {
     background-color: #333;
     padding: 20px;
     text-align: center;
+    transition: 0.5s;
 }
 
 footer p {
@@ -348,8 +357,12 @@ footer ul li {
 footer ul li a {
     color: #fff;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 footer ul li a:hover {
-    text-decoration: underline;
+    border: 1px solid transparent;
+    transition: 0.5s;
+    border: 1px solid #fff;
+    background-color: lightcoral;
 }
