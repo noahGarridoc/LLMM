@@ -284,6 +284,7 @@ header nav img {
 }
 
 #contacto .contenido h2 {
+    font-family: "Poppins", sans-serif;
     font-size: 2vh;
     margin-bottom: 20px;
     color: white;
@@ -322,6 +323,10 @@ header nav img {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+#contacto .email{
+    padding: 1vh;
+    margin: 1vh;
 }
 
 #contacto .contenido input[type="submit"] {
